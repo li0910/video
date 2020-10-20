@@ -111,15 +111,14 @@
             <ul class="nav navbar-nav">
                 <li class="active"><a href="${pageContext.request.contextPath}/video/list">视频管理</a></li>
                 <li><a href="${pageContext.request.contextPath}/speaker/showSpeakerList">主讲人管理</a></li>
-                <li><a href="${pageContext.request.contextPath}/showCourseList">课程管理</a></li>
+                <li><a href="${pageContext.request.contextPath}/course/showCourseList">课程管理</a></li>
 
 
             </ul>
             <p class="navbar-text navbar-right">
-                <span>${sessionScope.userName}</span> <i class="glyphicon glyphicon-log-in"
-                                                         aria-hidden="true"></i>&nbsp;&nbsp;<a
-                    href="${pageContext.request.contextPath}/admin/exit"
-                    class="navbar-link">退出</a>
+                <a href="/admin/toEdit"><span>${admin.username}</span></a>
+                <i class="glyphicon glyphicon-log-in" aria-hidden="true"></i>&nbsp;&nbsp;
+                <a href="${pageContext.request.contextPath}/admin/exit" class="navbar-link">退出</a>
             </p>
         </div>
         <!-- /.navbar-collapse -->
@@ -167,6 +166,16 @@
                 <input type="text" name="speakerJob" class="form-control" value="${speaker.speakerJob}" placeholder="主讲人职位">
             </div>
         </div>
+
+
+<%--        当需要使用主讲人照片或者照片地址时,可以使用此代码块--%>
+
+<%--        <div class="form-group">--%>
+<%--            <label class="col-sm-2 control-label">照片地址</label>--%>
+<%--            <div class="col-sm-10">--%>
+<%--                <input type="text" name="head_img_url" class="form-control" value="${speaker.headImgUrl}" placeholder="主讲人照片">--%>
+<%--            </div>--%>
+<%--        </div>--%>
 
         <div class="form-group">
             <label class="col-sm-2 control-label">简介</label>

@@ -20,9 +20,10 @@
     <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
 
     </bean>
-<!--    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">-->
-<!--        <property name="prefix" value="/WEB-INF/jsp"></property>-->
-<!--        <property name="suffix" value=""></property>-->
-<!--     </bean>-->
+<!--    开启试图解析器-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/jsp"></property>
+        <property name="suffix" value=""></property>
+     </bean>
 
 </beans>

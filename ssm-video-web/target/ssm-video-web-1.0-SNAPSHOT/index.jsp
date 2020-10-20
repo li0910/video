@@ -1,5 +1,7 @@
 <html>
 <body>
-<h2>Hello World!</h2>
+<%
+    request.getRequestDispatcher("/admin/toLogin").forward(request,response);
+%>
 </body>
 </html>

@@ -9,6 +9,16 @@ public class Course {
 
     private String courseDesc;
 
+    private Subject subject;
+
+    public Subject getSubject() {
+        return subject;
+    }
+
+    public void setSubject(Subject subject) {
+        this.subject = subject;
+    }
+
     public Integer getId() {
         return id;
     }
@@ -39,5 +49,16 @@ public class Course {
 
     public void setCourseDesc(String courseDesc) {
         this.courseDesc = courseDesc == null ? null : courseDesc.trim();
+    }
+
+    @Override
+    public String toString() {
+        return "Course{" +
+                "id=" + id +
+                ", courseTitle='" + courseTitle + '\'' +
+                ", subjectId=" + subjectId +
+                ", courseDesc='" + courseDesc + '\'' +
+                ", subject=" + subject +
+                '}';
     }
 }

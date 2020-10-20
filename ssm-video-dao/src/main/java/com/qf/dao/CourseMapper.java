@@ -4,7 +4,9 @@ import com.qf.pojo.Course;
 import com.qf.pojo.CourseExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface CourseMapper {
     int countByExample(CourseExample example);
 
