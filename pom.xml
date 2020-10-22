@@ -12,6 +12,7 @@
         <module>ssm-video-dao</module>
         <module>ssm-video-service</module>
         <module>ssm-video-web</module>
+        <module>ssm-video-util</module>
     </modules>
 
 </project>

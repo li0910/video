@@ -1,0 +1,12 @@
+com\qf\service\SubjectService.class
+com\qf\service\impl\VideoServiceImpl.class
+com\qf\service\UserService.class
+com\qf\service\impl\UserServiceImpl.class
+com\qf\service\AdminService.class
+com\qf\service\SpeakerService.class
+com\qf\service\CourseService.class
+com\qf\service\impl\AdminServiceImpl.class
+com\qf\service\impl\SpeakServiceImpl.class
+com\qf\service\VideoService.class
+com\qf\service\impl\CourseServiceImpl.class
+com\qf\service\impl\SubjectServiceImpl.class

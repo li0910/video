@@ -27,6 +27,7 @@
         <!-- 设置数据源 -->
         <property name="dataSource" ref="dataSource"/>
 
+
         <!--配置mybatis 插件-->
         <property name="plugins">
             <set>
@@ -53,7 +54,7 @@
     <!--配置Mapper扫描-->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <!--设置Mapper扫描包-->
-        <property name="basePackage" value="com.qf.dao"></property>
+        <property name="basePackage" value="com.qf.dao" />
     </bean>
 
 </beans>
