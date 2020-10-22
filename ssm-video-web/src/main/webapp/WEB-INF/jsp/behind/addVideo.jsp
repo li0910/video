@@ -105,15 +105,14 @@
             <ul class="nav navbar-nav">
                 <li class="active"><a href="${pageContext.request.contextPath}/video/list">视频管理</a></li>
                 <li><a href="${pageContext.request.contextPath}/speaker/showSpeakerList">主讲人管理</a></li>
-                <li><a href="${pageContext.request.contextPath}/showCourseList">课程管理</a></li>
+                <li><a href="${pageContext.request.contextPath}/course/showCourseList">课程管理</a></li>
 
 
             </ul>
             <p class="navbar-text navbar-right">
-                <span>${sessionScope.userName}</span> <i class="glyphicon glyphicon-log-in"
-                                                         aria-hidden="true"></i>&nbsp;&nbsp;<a
-                    href="${pageContext.request.contextPath}/admin/exit"
-                    class="navbar-link">退出</a>
+                <a href="/admin/toEdit"><span>${admin.username}</span></a>
+                <i class="glyphicon glyphicon-log-in" aria-hidden="true"></i>&nbsp;&nbsp;
+                <a href="${pageContext.request.contextPath}/admin/exit" class="navbar-link">退出</a>
             </p>
         </div>
         <!-- /.navbar-collapse -->
@@ -168,9 +167,7 @@
                                                              onclick="showName(this,'${speaker.id}',1)">${speaker.speakerName}</a>
                                 </li>
                             </c:forEach>
-                            <!-- <li ><a href="#" onclick="showName(this,1,1)">闫振伟</a></li>
-                            <li ><a href="#" onclick="showName(this,2,1)">李文魁</a></li>
-                            <li ><a href="#" onclick="showName(this,3,1)">石军培</a></li>  -->
+
                         </ul>
                     </div><!-- /btn-group -->
                     <c:if test="${empty video.speakerId}">
@@ -231,6 +228,13 @@
                 <input type="url" name="imageUrl" class="form-control" value="${video.imageUrl}" placeholder="具体的url">
             </div>
         </div>
+
+        <div class="form-group">
+            <div class="col-sm-10">
+                <input type="hidden" name="playNum" class="form-control" value="${video.playNum}">
+            </div>
+        </div>
+
 
         <div class="form-group">
             <label class="col-sm-2 control-label">视频播放地址</label>

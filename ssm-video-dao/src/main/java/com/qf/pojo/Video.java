@@ -29,6 +29,14 @@ public class Video {
 
     private Speaker speaker;
 
+    public Speaker getSpeaker() {
+        return speaker;
+    }
+
+    public void setSpeaker(Speaker speaker) {
+        this.speaker = speaker;
+    }
+
     public Integer getId() {
         return id;
     }

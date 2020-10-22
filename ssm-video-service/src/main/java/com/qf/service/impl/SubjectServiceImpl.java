@@ -28,4 +28,9 @@ public class SubjectServiceImpl implements SubjectService {
     public Subject findByName(String subjectName) {
         return subjectMapper.findByName(subjectName);
     }
+
+    @Override
+    public List<Subject> findAll(Object o) {
+        return subjectMapper.selectByExample(null);
+    }
 }

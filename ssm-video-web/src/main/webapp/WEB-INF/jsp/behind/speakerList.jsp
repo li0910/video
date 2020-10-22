@@ -35,7 +35,7 @@
                     'primary': true,
                     'callback': function () {
                         var param = {"id": id};
-                        $.post("speakerDel", param, function (data) {
+                        $.post("/speaker/speakerDel", param, function (data) {
                             if (data == 'success') {
                                 Confirm.show('温馨提示：', '删除成功');
                                 $(Obj).parent().parent().remove();
@@ -69,15 +69,14 @@
             <ul class="nav navbar-nav">
                 <li><a href="${pageContext.request.contextPath}/video/list">视频管理</a></li>
                 <li class="active"><a href="${pageContext.request.contextPath}/speaker/showSpeakerList">主讲人管理</a></li>
-                <li><a href="${pageContext.request.contextPath}/showCourseList">课程管理</a></li>
+                <li><a href="${pageContext.request.contextPath}/course/showCourseList">课程管理</a></li>
 
 
             </ul>
             <p class="navbar-text navbar-right">
-                <span>${sessionScope.userName}</span> <i class="glyphicon glyphicon-log-in"
-                                                         aria-hidden="true"></i>&nbsp;&nbsp;<a
-                    href="${pageContext.request.contextPath}/admin/exit"
-                    class="navbar-link">退出</a>
+                <a href="/admin/toEdit"><span>${admin.username}</span></a>
+                <i class="glyphicon glyphicon-log-in" aria-hidden="true"></i>&nbsp;&nbsp;
+                <a href="${pageContext.request.contextPath}/admin/exit" class="navbar-link">退出</a>
             </p>
         </div>
         <!-- /.navbar-collapse -->
@@ -119,7 +118,7 @@
         </tr>
         </thead>
         <tbody>
-        <c:forEach items="${page.rows}" var="speaker" varStatus="status">
+        <c:forEach items="${page.list}" var="speaker" varStatus="status">
             <tr>
                 <td>${status.index+1}</td>
                 <td>${speaker.speakerName}</td>
@@ -137,12 +136,26 @@
 
         </tbody>
     </table>
+
 </div>
-<div class="container">
-    <div class="navbar-right" style="padding-right: 17px">
-        <p:page url="${pageContext.request.contextPath}/speaker/showSpeakerList"></p:page>
-    </div>
-</div>
+
+<%--        <p:page url="${pageContext.request.contextPath}/speaker/showSpeakerList"></p:page>--%>
+    <nav aria-label="Page navigation">
+        <ul class="pager">
+            <li><a href="/video/list?pageNum=${page.navigateFirstPage}">首页</a></li>
+            <c:if test="${page.hasPreviousPage}">
+                <li><a href="/video/list?pageNum=${page.prePage}">上一页</a></li>
+                <li><a href="/video/list?pageNum=${page.prePage}">${page.prePage}</a></li>
+            </c:if>
+            <li><a href="/video/list?pageNum=${page.pageNum}"><font color="red">${page.pageNum}</font></a></li>
+            <c:if test="${page.hasNextPage}">
+                <li><a href="/video/list?pageNum=${page.nextPage}">${page.nextPage}</a></li>
+                <li><a href="/video/list?pageNum=${page.nextPage}">下一页</a></li>
+            </c:if>
+            <li><a href="/video/list?pageNum=${page.navigateLastPage}">末页</a></li>
+            <%--        <p:page url="${pageContext.request.contextPath}/video/list"></p:page>--%>
+        </ul>
+    </nav>
 </body>
 
 </html>

@@ -6,6 +6,7 @@
     <result column="speaker_name" property="speakerName" jdbcType="VARCHAR" />
     <result column="speaker_job" property="speakerJob" jdbcType="VARCHAR" />
     <result column="head_img_url" property="headImgUrl" jdbcType="VARCHAR" />
+    <result column="speaker_desc" property="speakerDesc"/>
   </resultMap>
   <resultMap id="ResultMapWithBLOBs" type="com.qf.pojo.Speaker" extends="BaseResultMap" >
     <result column="speaker_desc" property="speakerDesc" jdbcType="LONGVARCHAR" />
@@ -69,7 +70,7 @@
     </where>
   </sql>
   <sql id="Base_Column_List" >
-    id, speaker_name, speaker_job, head_img_url
+    id, speaker_name, speaker_job, head_img_url,speaker_desc
   </sql>
   <sql id="Blob_Column_List" >
     speaker_desc

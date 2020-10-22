@@ -57,4 +57,15 @@ public class Course {
     public void setCourseDesc(String courseDesc) {
         this.courseDesc = courseDesc == null ? null : courseDesc.trim();
     }
+
+    @Override
+    public String toString() {
+        return "Course{" +
+                "id=" + id +
+                ", courseTitle='" + courseTitle + '\'' +
+                ", subjectId=" + subjectId +
+                ", courseDesc='" + courseDesc + '\'' +
+                ", subject=" + subject +
+                '}';
+    }
 }

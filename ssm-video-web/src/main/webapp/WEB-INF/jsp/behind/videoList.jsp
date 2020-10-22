@@ -173,15 +173,17 @@
             <ul class="nav navbar-nav">
                 <li class="active"><a href="${pageContext.request.contextPath}/video/list">视频管理</a></li>
                 <li><a href="${pageContext.request.contextPath}/speaker/showSpeakerList">主讲人管理</a></li>
-                <li><a href="${pageContext.request.contextPath}/showCourseList">课程管理</a></li>
+                <li><a href="${pageContext.request.contextPath}/course/showCourseList">课程管理</a></li>
 
 
             </ul>
             <p class="navbar-text navbar-right">
-                <span>${sessionScope.userName}</span> <i class="glyphicon glyphicon-log-in"
-                                                         aria-hidden="true"></i>&nbsp;&nbsp;<a
-                    href="${pageContext.request.contextPath}/admin/exit"
-                    class="navbar-link">退出</a>
+
+                <%--                管理员名称--%>
+                <a href="/admin/toEdit"><span>${admin.username}</span></a>&nbsp;&nbsp;
+                <i class="glyphicon glyphicon-log-in" aria-hidden="true"></i>&nbsp;&nbsp;
+                <%--                退出登录--%>
+                <a href="${pageContext.request.contextPath}/admin/exit" class="navbar-link">退出</a>
             </p>
         </div>
         <!-- /.navbar-collapse -->
@@ -234,8 +236,8 @@
                         <li value=''><a href="#" onclick="showName(this,'',1)">--请选择老师--</a>
                         </li>
                         <c:forEach items="${speakerList}" var="speaker">
-                            <li value='${speaker.id}'><a href="#"
-                                                         onclick="showName(this,'${speaker.id}',1)">${speaker.speakerName}</a>
+                            <li value='${speaker.id}'>
+                                <a href="#" onclick="showName(this,'${speaker.id}',1)">${speaker.speakerName}</a>
                             </li>
                         </c:forEach>
                     </ul>
@@ -298,7 +300,7 @@
             </tr>
             </thead>
             <tbody>
-            <c:forEach items="${page.rows}" var="video" varStatus="status">
+            <c:forEach items="${page.list}" var="video" varStatus="status">
                 <tr>
                     <td><input type="checkbox" name="ids" value="${video.id}"
                                onclick="selectOne(this)"/></td>
@@ -325,12 +327,23 @@
 
     </form>
 </div>
-<div class="container">
-    <div class="navbar-right" style="padding-right: 17px">
-        <p:page url="${pageContext.request.contextPath}/video/list"></p:page>
-    </div>
-</div>
 
+<nav aria-label="Page navigation">
+    <ul class="pager">
+        <li><a href="/video/list?pageNum=${page.navigateFirstPage}">首页</a></li>
+        <c:if test="${page.hasPreviousPage}">
+            <li><a href="/video/list?pageNum=${page.prePage}">上一页</a></li>
+            <li><a href="/video/list?pageNum=${page.prePage}">${page.prePage}</a></li>
+        </c:if>
+        <li><a href="/video/list?pageNum=${page.pageNum}"><font color="red">${page.pageNum}</font></a></li>
+        <c:if test="${page.hasNextPage}">
+            <li><a href="/video/list?pageNum=${page.nextPage}">${page.nextPage}</a></li>
+            <li><a href="/video/list?pageNum=${page.nextPage}">下一页</a></li>
+        </c:if>
+        <li><a href="/video/list?pageNum=${page.navigateLastPage}">末页</a></li>
+        <%--        <p:page url="${pageContext.request.contextPath}/video/list"></p:page>--%>
+    </ul>
+</nav>
 
 </body>
 </html>

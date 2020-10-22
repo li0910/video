@@ -1,11 +1,13 @@
 package com.qf.service;
 
 import com.qf.pojo.Subject;
-import com.qf.pojo.SubjectExample;
 
 import java.util.List;
 
+import com.qf.pojo.SubjectExample;
+
 public interface SubjectService {
+    List<Subject> findAll(Object o);
 
 	List<Subject> selectByExample(SubjectExample example);
 
