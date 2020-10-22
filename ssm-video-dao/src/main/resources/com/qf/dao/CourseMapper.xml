@@ -82,6 +82,13 @@
   <sql id="Blob_Column_List" >
     course_desc
   </sql>
+    <select id="findOneCourse" resultMap="ResultMapWithBLOBs" parameterType="java.lang.Integer">
+        select * from course where subject_id = #{id}
+  </select>
+  <select id="findAllCourse" resultMap="ResultMapWithBLOBs" parameterType="java.lang.Integer">
+        select id, course_title, subject_id, course_desc
+        from course where subject_id = #{id}
+  </select>
   <select id="selectByExampleWithBLOBs" resultMap="ResultMapWithBLOBs" parameterType="com.qf.pojo.CourseExample" >
     select
     <if test="distinct" >
