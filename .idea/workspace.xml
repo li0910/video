@@ -7,268 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5dbb3e1-8b53-4721-bbca-0c53970c1b87" name="Default Changelist" comment="用户登录、注册、修改个人信息、忘记密码、修改密码、上传头像功能实现">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/564d3c9a-676b-49b9-823a-ff9657ed4981/storage_v2/_src_/schema/mysql2000.YBTbxA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/564d3c9a-676b-49b9-823a-ff9657ed4981/storage_v2/_src_/schema/school.dFvhyQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/564d3c9a-676b-49b9-823a-ff9657ed4981/storage_v2/_src_/schema/schooldb.8lr41g.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/dao/AdminMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/dao/AdminMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/dao/CourseMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/dao/CourseMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/dao/SpeakerMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/dao/SpeakerMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/dao/SubjectMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/dao/SubjectMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/dao/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/dao/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/dao/VideoMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/dao/VideoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/dao/test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/pojo/Admin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/pojo/AdminExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/pojo/AdminExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/pojo/AdminExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/pojo/AdminExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/pojo/Course.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/pojo/CourseExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/pojo/CourseExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/pojo/CourseExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/pojo/CourseExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/pojo/QueryVo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/pojo/Speaker.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/pojo/SpeakerExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/pojo/SpeakerExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/pojo/SpeakerExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/pojo/SpeakerExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/pojo/Subject.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/pojo/SubjectExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/pojo/SubjectExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/pojo/SubjectExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/pojo/SubjectExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/pojo/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/pojo/UserExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/pojo/UserExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/pojo/UserExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/pojo/UserExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/pojo/Video.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/pojo/VideoExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/pojo/VideoExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/pojo/VideoExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/com/qf/pojo/VideoExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-service/target/classes/com/qf/service/AdminService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-service/target/classes/com/qf/service/CourseService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-service/target/classes/com/qf/service/SpeakerService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-service/target/classes/com/qf/service/SubjectService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-service/target/classes/com/qf/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-service/target/classes/com/qf/service/VideoService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-service/target/classes/com/qf/service/impl/AdminServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-service/target/classes/com/qf/service/impl/CourseServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-service/target/classes/com/qf/service/impl/SpeakServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-service/target/classes/com/qf/service/impl/SubjectServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-service/target/classes/com/qf/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-service/target/classes/com/qf/service/impl/VideoServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-util/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-util/src/main/java/com/qf/utils/ImageCut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-util/src/main/java/com/qf/utils/MailUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-util/src/main/java/com/qf/utils/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-util/src/main/java/com/qf/utils/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-util/target/classes/com/qf/utils/ImageCut.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-util/target/classes/com/qf/utils/MailUtils$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-util/target/classes/com/qf/utils/MailUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-util/target/classes/com/qf/utils/Page.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-util/target/classes/com/qf/utils/StringUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-util/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-util/target/ssm-video-util-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/src/java/com/qf/controller/LogOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/src/java/com/qf/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/classes/com/qf/controller/LogOut.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/classes/com/qf/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/WEB-INF/classes/com/qf/controller/LogOut.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/WEB-INF/classes/com/qf/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/WEB-INF/jsp/404.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/WEB-INF/jsp/before/change_avatar.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/WEB-INF/jsp/before/change_profile.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/WEB-INF/jsp/before/course.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/WEB-INF/jsp/before/forget_password.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/WEB-INF/jsp/before/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/WEB-INF/jsp/before/myProfile.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/WEB-INF/jsp/before/password_safe.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/WEB-INF/jsp/before/reset_password.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/WEB-INF/jsp/before/section.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/WEB-INF/jsp/behind/addSpeaker.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/WEB-INF/jsp/behind/addVideo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/WEB-INF/jsp/behind/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/WEB-INF/jsp/behind/speakerList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/WEB-INF/jsp/behind/videoList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/WEB-INF/jsp/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/WEB-INF/lib/activation-1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/WEB-INF/lib/javax.mail-1.6.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/WEB-INF/lib/ssm-video-dao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/WEB-INF/lib/ssm-video-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/WEB-INF/lib/ssm-video-util-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/WEB-INF/tld/commons.tld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/css/css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/css/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/css/font/vjs.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/css/font/vjs.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/css/font/vjs.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/css/font/vjs.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/css/forget_password.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/css/jquery.Jcrop.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/css/profile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/css/video-js.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/images/error.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/android.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/avatar_lg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/banner-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/banner-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/banner-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/banner-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/banner-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/banner-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/bigdata.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/count.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/error.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/footer1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/footer2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/footer3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/footer4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/footer_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/hl_scroll_left1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/html5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/java.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/left-arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/nav_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/nav_down2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/password.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/php.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/player.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/python.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/q.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/qidai.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/right-arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/sc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/teacher-wjh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/tele.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/thumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/ui.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/we.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/yzm.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/微信公众号.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/img/微博公众号.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/js/Jcrop_upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/js/axios.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/js/axios.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/js/confirm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/js/gVerify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/js/jquery-1.12.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/js/jquery-1.8.3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/js/jquery-1.8.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/js/jquery.Jcrop.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/js/jquery.cityselect.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/js/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/js/mobile/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/js/mobile/need/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/js/profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/js/readmore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/js/skin/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/js/skin/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/js/skin/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/js/skin/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/js/skin/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/js/skin/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/js/video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/js/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/js/vueCourse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/js/vueSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/564d3c9a-676b-49b9-823a-ff9657ed4981.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/564d3c9a-676b-49b9-823a-ff9657ed4981.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-dao/src/main/java/com/qf/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-dao/src/main/java/com/qf/dao/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-dao/src/main/java/com/qf/dao/testly.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-dao/src/main/java/com/qf/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-dao/src/main/java/com/qf/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-dao/src/main/java/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-dao/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-dao/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-dao/src/main/resources/com/qf/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-dao/src/main/resources/com/qf/dao/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-dao/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-dao/src/main/resources/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-dao/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-dao/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-dao/target/classes/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-dao/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-dao/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-util/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-dao/target/ssm-video-dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-dao/target/ssm-video-dao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-service/src/main/java/com/qf/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-service/src/main/java/com/qf/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-service/src/main/java/com/qf/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-service/src/main/java/com/qf/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-service/target/ssm-video-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-service/target/ssm-video-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-web/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-web/src/main/resources/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-web/src/main/webapp/WEB-INF/jsp/before/change_avatar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-web/src/main/webapp/WEB-INF/jsp/before/change_avatar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-web/src/main/webapp/WEB-INF/jsp/before/change_profile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-web/src/main/webapp/WEB-INF/jsp/before/change_profile.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-web/src/main/webapp/WEB-INF/jsp/before/course.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-web/src/main/webapp/WEB-INF/jsp/before/course.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-web/src/main/webapp/WEB-INF/jsp/before/forget_password.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-web/src/main/webapp/WEB-INF/jsp/before/forget_password.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-web/src/main/webapp/WEB-INF/jsp/before/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-web/src/main/webapp/WEB-INF/jsp/before/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-web/src/main/webapp/WEB-INF/jsp/before/my_profile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-web/src/main/webapp/WEB-INF/jsp/before/myProfile.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-web/src/main/webapp/WEB-INF/jsp/before/password_safe.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-web/src/main/webapp/WEB-INF/jsp/before/password_safe.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-web/src/main/webapp/WEB-INF/jsp/before/section.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-web/src/main/webapp/WEB-INF/jsp/before/section.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-web/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-web/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-web/src/main/webapp/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-web/src/main/webapp/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-web/src/main/webapp/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-web/src/main/webapp/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-web/src/main/webapp/js/jquery-1.12.4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-web/src/main/webapp/js/jquery-1.12.4.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-web/src/main/webapp/js/jquery-1.8.3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-web/src/main/webapp/js/jquery-1.8.3.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-web/src/main/webapp/js/layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-web/src/main/webapp/js/layer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-web/src/main/webapp/js/mobile/layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-web/src/main/webapp/js/mobile/layer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-web/target/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-web/target/classes/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-web/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-web/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/WEB-INF/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/WEB-INF/classes/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/WEB-INF/lib/ssm-myBook-dao-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/WEB-INF/lib/ssm-myBook-service-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-video-web/target/ssm-video-web-1.0-SNAPSHOT/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -327,11 +66,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ssm-video-web/src/java/com/qf/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2454">
-              <caret line="170" column="5" lean-forward="true" selection-start-line="170" selection-start-column="5" selection-end-line="170" selection-end-column="5" />
+            <state relative-caret-position="75">
+              <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ssm-video-web/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" selection-start-line="2" selection-start-column="4" selection-end-line="4" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -346,30 +94,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm-video-web/src/main/webapp/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5508">
-              <caret line="204" column="9" selection-start-line="204" selection-start-column="9" selection-end-line="204" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ssm-video-dao/src/main/resources/db.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
               <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://564d3c9a-676b-49b9-823a-ff9657ed4981/schema/video/table/user">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true">
-                <filter text="" />
-              </filtering>
             </state>
           </provider>
         </entry>
@@ -383,10 +111,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ssm-video-service/src/main/java/com/qf/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
+            <state relative-caret-position="226">
               <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
               <folding>
                 <element signature="e#1122#1123#0" expanded="true" />
@@ -948,7 +676,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104714000" />
+    <option name="totallyTimeSpent" value="105114000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
@@ -1138,13 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm-video-web/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-start-column="4" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssm-video-web/src/main/webapp/WEB-INF/jsp/before/change_avatar.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1323">
@@ -1259,8 +980,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ssm-video-web/src/java/com/qf/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2454">
-          <caret line="170" column="5" lean-forward="true" selection-start-line="170" selection-start-column="5" selection-end-line="170" selection-end-column="5" />
+        <state relative-caret-position="75">
+          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1283,7 +1004,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ssm-video-service/src/main/java/com/qf/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
+        <state relative-caret-position="226">
           <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
           <folding>
             <element signature="e#1122#1123#0" expanded="true" />
@@ -1291,6 +1012,16 @@
             <element signature="e#1215#1216#0" expanded="true" />
             <element signature="e#1271#1272#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-video-web/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-start-column="4" selection-end-line="4" selection-end-column="6" />
         </state>
       </provider>
     </entry>
