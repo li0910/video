@@ -67,7 +67,8 @@
              draggable="false">
         <ul class="text_13 f_right">
             <li>
-                <a href="http://chengjian100.com/" target="_blank">首页</a>
+<%--                <a href="http://chengjian100.com/" target="_blank">首页</a>--%>
+                <a href="${pageContext.request.contextPath}/subject/selectAll" target="_blank">首页</a>
             </li>
             <li class="nav_down">
                 高端课程<img src="${pageContext.request.contextPath}/img/nav_down.png" alt="" draggable="false">
@@ -120,7 +121,7 @@
 
             <div class="kcjs">
                 <p class="title">课程介绍</p>
-                <p class="content">${course.courseDesc}</p>
+                <p class="content">${course1.courseDesc}</p>
             </div>
 
         </div>
@@ -129,8 +130,8 @@
     <div class="catalog">
         <div class="container">
             <p class="title">目录</p>
-
-            <c:forEach items="${course.videoList}" var="video">
+<%--修改了course.videoList为videoList--%>
+            <c:forEach items="${videoList}" var="video">
                 <div class="chapter" onclick="load(${video.id})">
                     <p class="biaoti"><a
                             href="showVideo?videoId=${video.id}&subjectName=${subjectName}">${video.title}</a></p>

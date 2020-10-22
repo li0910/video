@@ -75,6 +75,9 @@
   <sql id="Base_Column_List" >
     id, email, phoneNum, password, code, nickName, sex, birthday, address, imgUrl, createTime
   </sql>
+  <select id="findByEmail" resultMap="BaseResultMap">
+    select * from user where email = #{email}
+  </select>
   <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.qf.pojo.UserExample" >
     select
     <if test="distinct" >
@@ -234,6 +237,10 @@
     <if test="_parameter != null" >
       <include refid="Update_By_Example_Where_Clause" />
     </if>
+  </update>
+<!--  更新邮箱更改的用户密码-->
+  <update id="updateUser" parameterType="map">
+    update user set password = #{password} where id = #{id}
   </update>
   <update id="updateByExample" parameterType="map" >
     update user

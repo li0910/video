@@ -33,8 +33,8 @@ public class NavigationTag extends TagSupport {
         JspWriter writer = pageContext.getOut();
         HttpServletRequest request = (HttpServletRequest) pageContext.getRequest();
         Page page = (Page) request.getAttribute(bean);
-        if (page == null)
-            return SKIP_BODY;
+        if (page == null) {
+            return SKIP_BODY;}
         url = resolveUrl(url, pageContext);
         try {
             //计算总页数
@@ -122,9 +122,9 @@ public class NavigationTag extends TagSupport {
         //UrlSupport.resolveUrl(url, context, pageContext)
         Map params = pageContext.getRequest().getParameterMap();
         for (Object key : params.keySet()) {
-            if ("page".equals(key) || "rows".equals(key)) continue;
+            if ("page".equals(key) || "rows".equals(key)){ continue;}
             Object value = params.get(key);
-            if (value == null) continue;
+            if (value == null) {continue;}
             if (value.getClass().isArray()) {
                 url = append(url, key.toString(), ((String[]) value)[0]);
             } else if (value instanceof String) {

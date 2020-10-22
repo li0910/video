@@ -4,7 +4,9 @@ import com.qf.pojo.Video;
 import com.qf.pojo.VideoExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface VideoMapper {
     int countByExample(VideoExample example);
 
@@ -33,4 +35,10 @@ public interface VideoMapper {
     int updateByPrimaryKeyWithBLOBs(Video record);
 
     int updateByPrimaryKey(Video record);
+
+	List<Video> findAllVideo(int id);
+
+    Video findById(Integer id);
+
+    Video findByVideoId(Integer id);
 }

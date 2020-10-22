@@ -4,7 +4,9 @@ import com.qf.pojo.User;
 import com.qf.pojo.UserExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface UserMapper {
     int countByExample(UserExample example);
 
@@ -27,4 +29,8 @@ public interface UserMapper {
     int updateByPrimaryKeySelective(User record);
 
     int updateByPrimaryKey(User record);
+
+	User findByEmail(String email);
+
+	void updateUser(User user);
 }

@@ -87,7 +87,7 @@
              draggable="false">
         <ul class="text_13 f_right">
             <li>
-                <a href="#">首页</a>
+                <a href="${pageContext.request.contextPath}/subject/selectAll">首页</a>
             </li>
             <li class="nav_down">
                 高端课程<img src="${pageContext.request.contextPath}/img/nav_down.png" alt="" draggable="false">
@@ -112,59 +112,62 @@
 </nav>
 <div id="app">
     <!--banner图-->
+
     <div class="banner"
          style="background-image: url(${pageContext.request.contextPath}/img/banner-${subject.id}.jpg)"></div>
+<%--    <c:forEach items="${subjectList}" var="subject">--%>
+        <!--面包屑导航-->
+        <div class="container mian-nav">Web课 / ${subject.subjectName}</div>
 
-    <!--面包屑导航-->
-    <div class="container mian-nav">Web课 / ${subject.subjectName}</div>
-
-    <div class="classify">
-        <div class="container">
-            <!--章-->
-            <c:forEach items="${subject.courseList}" var="course">
-                <div class="section">
-                    <div class="classifyName">
-                        <p class="title title-first">${course.courseTitle}</p>
-                    </div>
-                    <div class="kcIntro">
-                        <p class="int"><span>课程介绍：</span>${course.courseDesc}
-                        </p>
-                    </div>
-                    <ul>
-                        <!--节-->
-                        <c:forEach items="${course.videoList}" var="video" varStatus="i">
-                            <li class="section-main" onclick="getVideo(${video.id})">
-                                <div class="thum" style="background-image: url('${video.imageUrl}')">
-                                    <!--http://vod.chengjian100.com/gkk/h5/c1/image/course/01.jpg-->
-                                </div>
-                                <p>
-                                    <c:if test="${(i.index+1)>=10}">
-                                        ${i.index+1}
-                                    </c:if>
-                                    <c:if test="${(i.index+1)<10}">
-                                        0${i.index+1}
-                                    </c:if> ${video.title}</p>
-                                <div class="classify-v-info">
+        <div class="classify">
+            <div class="container">
+                <!--章 subject.courseList -->
+                <c:forEach items="${courseList}" var="course">
+                    <div class="section">
+                        <div class="classifyName">
+                            <p class="title title-first">${course.courseTitle}</p>
+                        </div>
+                        <div class="kcIntro">
+                            <p class="int"><span>课程介绍：</span>${course.courseDesc}
+                            </p>
+                        </div>
+                        <ul>
+                            <!--节-->
+                            <c:forEach items="${course.videoList}" var="video" varStatus="i">
+                                <li class="section-main" onclick="getVideo(${video.id})">
+                                    <div class="thum" style="background-image: url('${video.imageUrl}')">
+                                        <!--http://vod.chengjian100.com/gkk/h5/c1/image/course/01.jpg-->
+                                    </div>
+                                    <p>
+                                        <c:if test="${(i.index+1)>=10}">
+                                            ${i.index+1}
+                                        </c:if>
+                                        <c:if test="${(i.index+1)<10}">
+                                            0${i.index+1}
+                                        </c:if> ${video.title}</p>
+                                    <div class="classify-v-info">
                                     <span class="count" title="观看次数"><img
                                             src="${pageContext.request.contextPath}/img/count.png"
                                             alt="">${video.playNum}</span>
-                                    <span class="duration" title="视频时长"><img
-                                            src="${pageContext.request.contextPath}/img/player.png" alt="">${video.time}</span>
-                                </div>
-                            </li>
+                                        <span class="duration" title="视频时长"><img
+                                                src="${pageContext.request.contextPath}/img/player.png"
+                                                alt="">${video.time}</span>
+                                    </div>
+                                </li>
 
-                        </c:forEach>
+                            </c:forEach>
 
 
-                    </ul>
-                </div>
+                        </ul>
+                    </div>
 
-            </c:forEach>
+                </c:forEach>
 
+
+            </div>
 
         </div>
-
-    </div>
+<%--    </c:forEach>--%>
 </div>
 <!--页脚-->
 <footer>
@@ -207,7 +210,7 @@
             <img src="${pageContext.request.contextPath}/img/logo.png" alt="" class="ma">
         </div>
         <div class="mask_content_body">
-            <form id="loginForm" action="#">
+            <form id="loginForm" action="${pageContext.request.contextPath}/user/loginUser">
                 <h3>快速登录</h3>
                 <input type="email" id="loginEmail" placeholder="请输入邮箱" name="email">
                 <input type="password" id="loginPassword" placeholder="请输入密码" name="password">

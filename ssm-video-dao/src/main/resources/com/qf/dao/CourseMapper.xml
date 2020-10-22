@@ -5,6 +5,12 @@
     <id column="id" property="id" jdbcType="INTEGER" />
     <result column="course_title" property="courseTitle" jdbcType="VARCHAR" />
     <result column="subject_id" property="subjectId" jdbcType="INTEGER" />
+    <association property="subject" javaType="com.qf.pojo.Subject"
+    select="com.qf.dao.SubjectMapper.selectByPrimaryKey"
+    column="subject_id"/>
+    <collection property="videoList" ofType="com.qf.pojo.Video"
+                select="com.qf.dao.VideoMapper.findById"
+                column="id" />
   </resultMap>
   <resultMap id="ResultMapWithBLOBs" type="com.qf.pojo.Course" extends="BaseResultMap" >
     <result column="course_desc" property="courseDesc" jdbcType="LONGVARCHAR" />
@@ -102,6 +108,14 @@
     <if test="orderByClause != null" >
       order by ${orderByClause}
     </if>
+  </select>
+  <select id="findOneCourse" resultMap="ResultMapWithBLOBs" parameterType="java.lang.Integer">
+        select * from course where subject_id = #{id}
+  </select>
+
+  <select id="findAllCourse" resultMap="ResultMapWithBLOBs" parameterType="java.lang.Integer">
+        select id, course_title, subject_id, course_desc
+        from course where subject_id = #{id}
   </select>
   <select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs" parameterType="java.lang.Integer" >
     select 

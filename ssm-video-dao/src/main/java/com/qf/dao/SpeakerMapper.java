@@ -4,7 +4,9 @@ import com.qf.pojo.Speaker;
 import com.qf.pojo.SpeakerExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface SpeakerMapper {
     int countByExample(SpeakerExample example);
 
@@ -33,4 +35,6 @@ public interface SpeakerMapper {
     int updateByPrimaryKeyWithBLOBs(Speaker record);
 
     int updateByPrimaryKey(Speaker record);
+
+    List<Speaker> findAllSpeaker(Integer id);
 }

@@ -1,10 +1,13 @@
 package com.qf.dao;
 
+import com.qf.pojo.Course;
 import com.qf.pojo.Subject;
 import com.qf.pojo.SubjectExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface SubjectMapper {
     int countByExample(SubjectExample example);
 
@@ -27,4 +30,8 @@ public interface SubjectMapper {
     int updateByPrimaryKeySelective(Subject record);
 
     int updateByPrimaryKey(Subject record);
+
+    Subject findById(int id);
+
+	Subject findByName(String subjectName);
 }

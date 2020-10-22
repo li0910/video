@@ -9,7 +9,11 @@
         <module name="ssm-video-service" />
         <module name="ssm-video-web" />
         <module name="ssm-video-dao" />
+        <module name="ssm-video-utils" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="video-utils" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

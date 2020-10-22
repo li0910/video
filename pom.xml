@@ -9,9 +9,11 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>ssm-video-dao</module>
-        <module>ssm-video-service</module>
-        <module>ssm-video-web</module>
+            <module>ssm-video-dao</module>
+            <module>ssm-video-service</module>
+            <module>ssm-video-utils</module>
+            <module>ssm-video-web</module>
     </modules>
+
 
 </project>

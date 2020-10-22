@@ -74,6 +74,9 @@
   <sql id="Blob_Column_List" >
     speaker_desc
   </sql>
+  <select id="findAllSpeaker" resultMap="ResultMapWithBLOBs" >
+    select * from speaker where id = #{id}
+  </select>
   <select id="selectByExampleWithBLOBs" resultMap="ResultMapWithBLOBs" parameterType="com.qf.pojo.SpeakerExample" >
     select
     <if test="distinct" >

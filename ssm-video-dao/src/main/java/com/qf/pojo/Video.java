@@ -1,5 +1,11 @@
 package com.qf.pojo;
 
+import lombok.Data;
+
+import java.util.List;
+
+@Data
+
 public class Video {
     private Integer id;
 
@@ -18,6 +24,10 @@ public class Video {
     private Integer playNum;
 
     private String detail;
+
+    private Course course;
+
+    private Speaker speaker;
 
     public Integer getId() {
         return id;
